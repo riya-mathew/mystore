@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { Product } from './model/product';
+import { pipe } from 'rxjs';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +10,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angproject1';
+
 }
+
+
+
+
+
+
+
+
+
+
+
